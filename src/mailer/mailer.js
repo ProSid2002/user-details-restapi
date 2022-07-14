@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
 
 const mailOptions = (html) => ({
   from: process.env.EMAIL,
-  to: process.env.EMAIL,
+  to: "siddharthsharma_me20a11_04@dtu.ac.in",
   subject: "User Details Data Records",
   html: html,
 });
